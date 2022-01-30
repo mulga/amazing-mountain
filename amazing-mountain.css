@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+
+  color: rgba(58, 58, 58, 1);
+  margin: 0;
+  background-color: rgb(207, 204, 204);
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+/* header */
+
+header {
+  background-color: white;
+}
+
+menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  /* padding: 0; */
+}
+
+.logo {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: rgba(12, 14, 54, 1);
+  text-transform: uppercase;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(12, 14, 54, 1);
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f70058;
+  width: 75px;
+  height: 83px;
+}
+
+.weather-icon img {
+  /* width: 51px; */
+}
+
+.weather-numbers {
+  background-color: #0c0e36;
+  padding: 22px 10px;
+}
+
+.weather-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  /* identical to box height */
+
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+.weather-nmbrs {
+  /* width: 29px;
+    height: 16px;
+    left: 1398px;
+    top: 17px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* hero */
+
+.hero {
+  background-image: url(img/sebastian-staines-xZIFEPtRsRI-unsplash\ 1.png);
+  padding: 250px 500px 250px 250px;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: 500px;
+}
+
+.hero-title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 102.8%;
+  /* or 49px */
+  margin-bottom: 20px;
+
+  color: #0c0e36;
+}
+
+.hero-text {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #3a3a3a;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #f70058;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 3px solid #f70058;
+  padding: 15px 27px;
+}
+
+.secondary {
+  background-color: transparent;
+  border: 3px solid #f70058;
+
+  padding: 15px 27px;
+  color: #f70058;
+}
